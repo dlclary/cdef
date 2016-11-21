@@ -5,11 +5,11 @@
         <key>Description</key>
         <string>Uses parent pkg recipe to download latest cdef and installs it.</string>
         <key>Identifier</key>
-        <string>com.github.ftiff.install.cdef</string>
+        <string>com.github.dlclary.install.cdef</string>
         <key>MinimumVersion</key>
-        <string>0.2.1</string>
+        <string>0.6.1</string>
         <key>ParentRecipe</key>
-        <string>com.github.ftiff.pkg.cdef</string>
+        <string>com.github.dlclary.pkg.cdef</string>
         <key>Input</key>
         <dict>
         </dict>
