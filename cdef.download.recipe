@@ -5,7 +5,7 @@
     <key>Description</key>
     <string>Downloads the current release of cdef from Github.</string>
     <key>Identifier</key>
-    <string>com.github.dclary.download.cdef</string>
+    <string>com.github.dlclary.download.cdef</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
