@@ -5,14 +5,14 @@
     <key>Description</key>
     <string>Downloads the current release of cdef from Github.</string>
     <key>Identifier</key>
-    <string>com.github.ftiff.download.cdef</string>
+    <string>com.github.dclary.download.cdef</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
         <string>cdef</string>
     </dict>
     <key>MinimumVersion</key>
-    <string>0.2.1</string>
+    <string>0.6.1</string>
     <key>Process</key>
     <array>
         <dict>
@@ -22,6 +22,8 @@
             <dict>
                 <key>github_repo</key>
                 <string>ftiff/cdef</string>
+                <key>include_prereleases</key>
+                <string>True</string>
             </dict>
         </dict>
         <dict>
@@ -36,6 +38,21 @@
         <dict>
             <key>Processor</key>
             <string>EndOfCheckPhase</string>
+        </dict>
+        <dict>   
+        <key>Processor</key>   
+        <string>CodeSignatureVerifier</string>   
+        <key>Arguments</key>   
+            <dict>   
+                <key>input_path</key>   
+                <string>%pathname%</string>
+                <key>expected_authority_names</key>
+                <array>
+                    <string>Developer ID Installer: Francois TIFFREAU (EM3ER8T33A)</string>
+                    <string>Developer ID Certification Authority</string>
+                    <string>Apple Root CA</string>
+                </array>
+            </dict>
         </dict>
     </array>
 </dict>
