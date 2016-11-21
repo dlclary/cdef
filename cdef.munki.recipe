@@ -3,11 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>MinimumVersion</key>
-	<string>0.2.1</string>
+	<string>0.6.1</string>
 	<key>Identifier</key>
-	<string>com.ftiff.munki.cdef</string>
+	<string>com.dlclary.munki.cdef</string>
 	<key>ParentRecipe</key>
-	<string>com.github.ftiff.download.cdef</string>
+	<string>com.github.dlclary.download.cdef</string>
 	<key>Description</key>
 	<string>Imports cdef into Munki</string>
 	<key>Input</key>
