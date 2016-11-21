@@ -5,9 +5,9 @@
 	<key>Description</key>
 	<string>Empty recipe that simply uses the download recipe (as it downloads a pkg)</string>
 	<key>Identifier</key>
-	<string>com.github.tfiff.pkg.cdef</string>
+	<string>com.github.dlclary.pkg.cdef</string>
 	<key>ParentRecipe</key>
-	<string>com.github.ftiff.download.cdef</string>
+	<string>com.github.dlclary.download.cdef</string>
 	<key>Input</key>
 	<dict/>
 </dict>
