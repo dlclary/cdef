@@ -5,7 +5,7 @@
 	<key>MinimumVersion</key>
 	<string>0.6.1</string>
 	<key>Identifier</key>
-	<string>com.dlclary.munki.cdef</string>
+	<string>com.github.dlclary.munki.cdef</string>
 	<key>ParentRecipe</key>
 	<string>com.github.dlclary.download.cdef</string>
 	<key>Description</key>
